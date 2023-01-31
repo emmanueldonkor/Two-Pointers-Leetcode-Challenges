@@ -19,3 +19,6 @@ var minimumDifference = function (nums, k) {
   }
   return minimum;
 };
+
+//Time Complexity O(nlog n)
+//Space complexity O(n)
