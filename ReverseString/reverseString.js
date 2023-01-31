@@ -16,3 +16,5 @@ var reverseString = function (s) {
     right--;
   }
 };
+//Time complexity O(n)
+//Space complexity O(1)
