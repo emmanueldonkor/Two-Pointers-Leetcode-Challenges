@@ -21,3 +21,18 @@ var moveZeroes = function (nums) {
 
   return nums;
 };
+
+//Alternative  method
+function moveZeroes(nums) {
+  let slow = 0;
+  for (let fast = 0; fast < nums.length; fast++) {
+    if (nums[fast] !== 0) {
+      [nums[fast], nums[slow]] = [nums[slow], nums[fast]];
+      slow++;
+    }
+  }
+}
+
+
+//Time complexity of O(n)
+//Space complexity Of O(1)
