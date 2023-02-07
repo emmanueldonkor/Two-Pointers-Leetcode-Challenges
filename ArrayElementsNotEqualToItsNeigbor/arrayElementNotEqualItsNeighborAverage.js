@@ -7,7 +7,7 @@ var rearrangeArray = function(nums) {
    nums.sort((a, b) => a - b);
     let n = nums.length;
     let ans = [];
-    let left = 0, let right = n - 1;
+    let left = 0, right = n - 1;
     for (let i = 0; i < n; i++) {
         if (i % 2 === 0) {
             ans[i] = nums[left++];
