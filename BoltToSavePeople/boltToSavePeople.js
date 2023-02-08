@@ -18,3 +18,5 @@ var numRescueBoats = function (people, limit) {
   }
   return counter;
 };
+//Time Complexity O(n)
+//Space complexity O(1)
